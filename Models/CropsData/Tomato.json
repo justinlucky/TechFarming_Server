@@ -1,0 +1,227 @@
+[
+    {
+        "Index": 2,
+        "Crop": "Tomato",
+        "Best Season to Grow": {
+            "Summer": false,
+            "Fall": true,
+            "Winter": true,
+            "Monsoon": true
+        },
+        "Pests": [
+            {
+                "name": "Whiteflies",
+                "images": {
+                    "image1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcewFpJK-bsVUYruJZMl2ROF47Y4-ftvYiOOvOTuLa1675YfQnV9HKtK4pHbrD",
+                    "image2": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR7a0667I0Kwgh2jGsMJIM7PxI_7UvQlIbVvtQPRqleicHzwIQfHNYw29Z_IRW2",
+                    "image3": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTQxbhT8Hc3BLR9p4sSmkHFDdW_XbPxqoq078yQPEmtsn0KaUwVCqfthVyv0XGq"
+                }
+            },
+            {
+                "name": "Hornworms",
+                "images": {
+                    "image1": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQqkGbISRS2KEuTSLJ4tqeDWi-nqwsEOgtotHwWt3w_-q8Mz0OISbJwsPfYB0N2",
+                    "image2": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSaTCbY4YfdEtYsbuZhlH2l7ckLFC399ZJxWCmVqCMavELx7gpDF0fWVa079ffl",
+                    "image3": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTnHPOhkD5Hx3OwtpQhzbj8Se8aBC1hZdp8-5aaLaKcEDFsvWnXAzLCiuLi_1gD",
+                    "image4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0UfGvymKduwszVcRExJCMOkC0cm7Y8suVc6JZDtaawkYhRJBj275P5DqhYiey"
+                }
+            },
+            {
+                "name": "Tomato psyllids",
+                "images": {
+                    "image1": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT38PJEABrkT_SiUlrUk1qtRHW0IzzbqgmC5uxiuVBbARSY4_qJSn94Py-ZxLrM",
+                    "image2": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSw0tBxOFzF9bNff7kNfJpYgoVz6q0Fwkp5gQUVN5nvkUI0enVO1V7qH9nUBvPU",
+                    "image3": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS3cOhN0204R5l6vIBLX-TLva1MaMORD6OoVBQUJ2sGQKRb4wsKHwx9astUFZFq"
+                }
+            },
+            {
+                "name": "Aphids",
+                "images": {
+                    "image1": "https://s3.wp.wsu.edu/uploads/sites/3010/2022/09/aphidsa.jpg",
+                    "image2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE0GR3SDweQ1tkqCA-DO2jSagWRelAcLxdCzVUi2WgPfxabrbAbg8NkB7mzACf",
+                    "image3": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT_H6mim1jL1Z6Zr5QmzlAHSB5AKSaDzkCgwCQbfw2vEyQzxF8gK9PGAq1NAI90",
+                    "image4": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSuBOyCuwJA8ST3_tT8VNuTXDMYubvrnU0xn3eyO7xGxvd_bUVyMe6Npp37mVnA",
+                    "image5": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfFInsJUhS_xZwxSMP-3dRci37ZHZUoBHB0zmWR_OAp0-9-nAmnYGmP2AZ1r-T"
+                }
+            },
+            {
+                "name": "Flea beetles",
+                "images": {
+                    "image1": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRKDdQ5mFhClcdejmQ0dHgoPA5NghfpT7VTifwfWd_B_9mEEqVLpJ56grdInoIA",
+                    "image2": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQUIN7DJFk9Pj5J8nTvCT-FoB8aPyjWi1YO6w823S2a-hz41HO-6ca33QSkdSkE",
+                    "image3": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRISTGomnOP6GBhUAnWHNHgdDOO9FF2eJqVkKO73Ln_OJXrPeWjS1xkmXBM4227",
+                    "image4": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTZ3VeGRt6Mx_aVKFCMkaWMSQaJxiGjjVZ75CmJfez32Tuwm5V8B659wxMnZCPk"
+                }
+            },
+            {
+                "name": "Tomatoes russet mites",
+                "images": {
+                    "image1": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQMRSYK07a-sDAeQULH4LXisszVmzgzjH7YLdUTU0OTD7am8W63T1QywvrEDNmC",
+                    "image2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlwxJrwxDkq_L4RYeEZ9Ian4F-Q-dZkMowEbS0UPDobVnpMteFPQRRz1ixJUPp",
+                    "image3": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS_tohIR4ofwYi2JY79HOLlxdVj69jA6OrGr1-zlhBIQQciZzsU57s5nnsA0ySg",
+                    "image4": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQq-ilF9AVsGrk6guwdVmQT26uQWw4lHRK3g9HUMQ9dkFualAyw_aWhhVvrhF23"
+                }
+            }
+        ],
+        "Weed": [
+            {
+                "name": "Pigweed",
+                "images": {
+                    "image1": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT7kFZ3oeBFqppiy0hsOIj2EfTcdgaF26q3ozRTL1DlBUN4nhY9MeVUpOC-ZJM4",
+                    "image2": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRko7DWL07IJQ3otBnrAUImV1Ag0RhvUNS-ugjIl_fIzO9GwlwCQ3BPvl0tq4bs",
+                    "image3": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ2JV9CpJiKIdv2-VdQD4neosw2VHmnynjno23T0T8BDnfjtadMwbHesmtFYAon",
+                    "image4": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGWQ89q36fWq3DDRxFLI3u3wSN0JRlewUhw3U93ZyNe8QuBar7Cd23HMJQUxuf",
+                    "image5": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD-aS8f3EJ5CgLcMty5-ym_TSgnE-Jd4ly9C9NIPo1-fgUJNC3M15F39wfXxdu"
+                }
+            },
+            {
+                "name": "Crabgrass",
+                "images": {
+                    "image1": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTnuLGaOSiri4yOI9J_ULROMs5ldaTA-jEqgMo2ucKRgGdSRlp8bx-PoTugXp13"
+                }
+            },
+            {
+                "name": "Nutsedge",
+                "images": {
+                    "image1": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQEfdRhbZn_dkSsJcU-rMA4rPxCsnjS_Sv1VMOS9gNknO2F7VnYn_ugQKLd6O5C"
+                }
+            },
+            {
+                "name": "Johnson grass",
+                "images": {
+                    "image1": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcROZ6WZ6hRAfPtja3sfcofJyd0EoFHH_WTbxkrGBqu5cVQg1kK18QTfSfUWnDSs",
+                    "image2": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSoDNnTacA4xqMJXpzALt9pAK-kG45gHvw8X2rUBLDgIznvel2IlqhxY1DS69IA",
+                    "image3": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSy9vRGd_EFXQAIbEfM94aHZ8Q0BdDJ_RAhng3RyCNmdS5cMngpiTRiBkr_SPYU",
+                    "image4": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR6fWiIqfNKuUeJ5A-GcagVzxICV32oDvcZSEnLVtTuI3tS1m78H_VI8EcBvDCL"
+                }
+            },
+            {
+                "name": "Purple nutsedge",
+                "images": {
+                    "image1": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRvk4HMdxdJp9w-Ljg3Ss1TW_dvN3CMZpaGBsWQvheR_z0ux_ajiNoPkxYKXWE9",
+                    "image2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1AW71R6-sqspdtgzdsGQcVgOLfgLNpbydLx5nDxqAleRL0qVZShbmaF4QV6AD",
+                    "image3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT8uqf9x_GjyoW0dPJxSmCSpcN5s2XV2rua-U799Y0eeOKuHVmeDLTmBN5q75U",
+                    "image4": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQKFqD9ShTqicifJ_FwK1W5ye0QemIKe2csRqurb9tHEoDgBu2ugyzH8Z4hIQRC"
+                }
+            }
+        ],
+        "Diseases": [
+            {
+                "disease_name": "Early blight",
+                "images": {
+                    "image1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGp94Xa0NVYAjnEZutdCvEuNIbBFPH8h3DSzEI5iumX6-JgT63ep6uZt-hoogK",
+                    "image2": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT3Tom5V3onrpXcIpTnKA6xSOZXKBrXrsg2WCdnvAncABsGc-R25Ji7RT4X6z0l",
+                    "image3": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTW8nn4u_ea39rrNoqJU-hXy34RwNuNwLRLsFoNbnX0V4IN1fJ_R2um1BpTtcr8"
+                }
+            },
+            {
+                "disease_name": "Late blight",
+                "images": {
+                    "image1": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT16xfHMSI-Ln2wnmM3ssAFVxFJKA4jEmmmNHE3pJ63Pe-A7dTnGHCdoyi2mX5_",
+                    "image2": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTt0G8kgvX4wNDiT3b5HR5I-DSF6dYFPN9uJ59pKVbDOtrjjW36DEDuuVinEG0t",
+                    "image3": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTHbMygrb-07ogMxi_yNpuu8yvW18PwkQCmAD8ItwWtxIaQANhfcadkI5nSjxXu",
+                    "image4": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSgC2dGZl8yuuszKu5QfzzV6aI6GXrO5VX3snONfk9l9tZoiSqZW2iBllIJgpwb"
+                }
+            },
+            {
+                "disease_name": "Anthracnose",
+                "images": {
+                    "image1": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQRbV-nKFmcajQcEQA0qrveOrFk97BT51v5jzcIppMAPlwfIy07QSyTuR7nX2Nx",
+                    "image2": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTJTQZZkkhMcmFGXhk9WF9PTi_-MXNtXsDqVxo1t89D7nPXuMSd4jltghaR6i0w",
+                    "image3": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRYrsnWux8y9sIEcIs-QEXER6QY-L25-JQpnGECHQmyu4X6LXy743XDKxStxOfV",
+                    "image4": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT5ImwN07YjO-Tx2wVuNwsY3p3qg-87qsYvfKX54oj5vvY99WlXAdGtoIVNAbh2"
+                }
+            },
+            {
+                "disease_name": "Verticillate wilt",
+                "images": {
+                    "image1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQltd2RVPxGQne7yfP4jwwRIqNZTelTH5sjJcAWAqce6ztT-M0UEQONpXsn0olK",
+                    "image2": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcShzRIKNY26fcE3EkjHcnuNG7iWXYtlt9bXreF0xpMDrmPKoCCYf1YbxNriZVHo",
+                    "image3": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRx-2gZOGgl1CLfnklEmT4d5XOn4vYxOJwxckQ0PuEKoLa76Tprxz4pQW6JXvx_",
+                    "image4": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTdl_Ffb6gAd6SbdPebLHYToEY-Duca1Wnlz8YnGHcXmMs18s4FP-1UPB6AgSa6"
+                }
+            },
+            {
+                "disease_name": "Septoria leaf spot",
+                "images": {
+                    "image1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqYuBkJ-ADyN9oZc3E08JCoZOW58k31xcoeCMEqokddQNX22Fc9_C6-xVNzGFy",
+                    "image2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS75wvToK7JCqp6faD7bKD9W3gNh59gZhOZqwvy7CJMCn9GXveme-r4J-J8VBnj",
+                    "image3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScKQi47QiDdg47QWEu5VOq-iRu4bHKqMT8DpKJfWD67MrzPKMlaGxIy4-mERG2",
+                    "image4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbPPS5lKT6UEzL02eJy0fOfIq5f-t6kCl3huQi8MMwRygOLN9b5oelctqrlMgc"
+                }
+            },
+            {
+                "disease_name": "Tobacco mosaic virus",
+                "images": {
+                    "image1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpaLDJZS9lLvwUO6UtwS-H2pozN0lknp5ZHmLYXNN8ZZgZSsVf3Z11JCVRg0-U",
+                    "image2": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQwusYMDunFTb_VS-74Y4d3vBrhKoCsw5iLcNrOM6ICNPjt0GwHatSYXqet_RAz",
+                    "image3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsEewNrqpUxJjXgbDcYNIi2g_7x8zVC1JG1Zs1m71GmoKevfLjzEaJmZHeefyN",
+                    "image4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1dUsKYXV8Rhk7fhAFMoTURVoUwLbM8Oo5vD300vQ4U0YoTweYBJaul2tXa3Td"
+                }
+            },
+            {
+                "disease_name": "Tomato yellow leaf curl virus",
+                "images": {
+                    "image1": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcThEmpWJ4rmI9okG5asuR2g31SRR0KIPCFrqN6-pcNyQOebL7nc1hw3SMNMH9E5",
+                    "image2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTwF_24HIFa01Mp6holORxqUAXxo_DpUKH7CLgBMu6RC0HxTWOehZPB1Ef8Br7",
+                    "image3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJB6qAZ0Jf2NDkZBCoVUKJIJytCjulSfmLThixMBEUVD3C2AsV9BJ-dzbzqwOB",
+                    "image4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq3tAP_pnt97ar0Qwu64Y48wZ34qNy7fI27sKTp1M0YOfvc45M5erjbuzuU7xs"
+                }
+            }
+        ],
+        "Span from seedling to harvesting": {
+            "min": 60,
+            "max": 80
+        },
+        "Primary-nutrients": [
+            {
+                "N": {
+                    "min": 1,
+                    "max": 3
+                }
+            },
+            {
+                "P": {
+                    "min": 0.3,
+                    "max": 0.5
+                }
+            },
+            {
+                "K": {
+                    "min": 1.5,
+                    "max": 3
+                }
+            },
+            {
+                "C": {
+                    "min": 45,
+                    "max": 50
+                }
+            }
+        ],
+        "Secondary-nutrients": [
+            {
+                "Ca": {
+                    "min": 0.2,
+                    "max": 0.5
+                }
+            },
+            {
+                "Mg": {
+                    "min": 0.2,
+                    "max": 0.5
+                }
+            },
+            {
+                "S": {
+                    "min": 0.2,
+                    "max": 0.5
+                }
+            }
+        ],
+        "Micro-nutrient": {
+            "min": 0.12,
+            "max": 0.15
+        }
+    }
+]

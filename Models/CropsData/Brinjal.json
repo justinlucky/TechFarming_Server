@@ -1,0 +1,85 @@
+[
+    {
+        "index": 1,
+        "Crop": "Eggplant",
+        "Best Season to Grow": {
+            "Summer": true,
+            "Fall": true,
+            "Winter": true,
+            "Monsoon": true
+        },
+        "Pests": [
+            {
+                "name": "",
+                "images":{
+                    "image1": "",
+                    "image2": "",
+                    "image3": "",
+                    "image4": ""
+                }
+            }
+        ],
+        "Weed": [
+            {
+                "name": "",
+                "images":{
+                    "image1": "",
+                    "image2": "",
+                    "image3": "",
+                    "image4": ""
+                }
+            }
+        ],
+        "Diseases": [
+            {
+                "name": "",
+                "images":{
+                    "image1": "",
+                    "image2": "",
+                    "image3": "",
+                    "image4": ""
+                }
+            }
+        ],
+         "Span from seedling to harvesting": {
+            "max": 70,
+            "min": 80
+        },
+        "Primary-nutrients": {
+            "N": {
+                "min": 2,
+                "max": 3
+            },
+            "P": {
+                "min": 0.5,
+                "max": 1
+            },
+            "K": {
+                "min": 2,
+                "max": 3
+            },
+            "C": {
+                "min": 40,
+                "max": 45
+            }
+        },
+        "Secondary-nutrients": {
+            "Ca": {
+                "min": 0.2,
+                "max": 0.4
+            },
+            "Mg": {
+                "min": 0.2,
+                "max": 0.4
+            },
+            "S": {
+                "min": 0.2,
+                "max": 0.4
+            },
+            "Micro-nutrient": {
+                "min": 0.11,
+                "max": 0.13
+            }
+        }
+    }
+]

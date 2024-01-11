@@ -1,0 +1,200 @@
+<!-- ControllingPage.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope--Rover Control</title>
+    <script src="https://unpkg.com/nipplejs@0.11.0/dist/nipplejs.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha384-FfE5i1BgBpNBvKU8a4P3o2NBsKbRjIo4gg5ZUnkQXa3q2j50QC3rWUE5Xl8qDWfP" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .rover-controlling-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+        }
+
+        .rover-controlling-container h1 {
+            color: #744bdd;
+        }
+
+        .rover-controlling-container h1 span:nth-child(1) {
+            color: #43d843;
+        }
+
+        .rover-controlling-container h1 span:nth-child(2) {
+            color: #f5d20b;
+        }
+
+        #video-stream {
+            width: 640px;
+            height: 480px;
+        }
+
+        .rover-controlling-container .rover-controlling-buttons {
+            margin-top: 30px;
+        }
+
+        .rover-controlling-container .rover-controlling-buttons .controls table tr td button{
+          height: 100px;
+          width: 100px;
+          background-color: #43d843;
+          border-radius: 50%;
+          border: none;
+          color: #fafafa;
+          cursor: pointer;
+          transition: all .5s ease-in-out;
+        }
+
+        .rover-controlling-container .rover-controlling-buttons .controls table tr td button:hover{
+            background-color: #15ca15;
+            box-shadow: 5px 5px 10px #555;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="rover-controlling-container">
+        <h1><span>Tech</span><span>Farming</span> &nbsp; Rover - Hope</h1>
+
+        <!-- Live video stream -->
+        <video id="video-stream" autoplay></video>
+
+        <!-- Rover controls -->
+        <div class="rover-controlling-buttons">
+            <div id="controls" class="controls">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td><button onclick="sendCommand('moveForward')">Forward</button></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td> <button onclick="sendCommand('turnLeft')">Left</button></td>
+                        <td> <button onclick="sendCommand('stop')">Stop</button></td>
+                        <td> <button onclick="sendCommand('turnRight')">Right</button></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <button onclick="sendCommand('moveBackward')">Backward</button></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <button onclick="sendCommand('activateAdditionalMotors')">Activate Additional Motors</button>
+        </div>
+        <!-- Camera servo control -->
+        <div id="joystick-container" class="joystick">
+            <div id="joystick-handle"></div>
+        </div>
+    </div>
+
+    <script>
+        // Function to send rover control commands to the server
+        function sendCommand(command) {
+            fetch(`http://localhost:9000/api/rover-control?command=${command}`, {
+                method: 'POST',
+            });
+        }
+
+
+
+        // Function to start the video stream from the rover camera
+        async function startVideoStream() {
+            const videoElement = document.getElementById('video-stream');
+
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+                videoElement.srcObject = stream;
+            } catch (error) {
+                console.error('Error accessing camera:', error);
+            }
+        }
+
+        function initializeJoystick() {
+            const joystickContainer = document.getElementById('joystick-container');
+            const joystickHandle = document.getElementById('joystick-handle');
+
+            // Create a joystick using nipplejs
+            const joystick = nipplejs.create({
+                zone: joystickContainer,
+                mode: 'static',
+                position: { top: '50%', left: '50%' },
+                color: 'blue',
+            });
+
+            function moveJoystickHandle(data) {
+                const normalizedX = data.vector.x / 50;
+                const normalizedY = data.vector.y / 50;
+
+                // Calculate angle and magnitude
+                const angle = Math.atan2(normalizedY, normalizedX) * (180 / Math.PI) + 180;
+                const magnitude = Math.min(100, Math.sqrt(normalizedX ** 2 + normalizedY ** 2) * 100);
+
+                // Adjust the position of the joystick handle based on joystick movements
+                const handleRadius = 25; // Half of the joystick handle width/height
+                const handleX = magnitude * Math.cos(angle * (Math.PI / 180)) - handleRadius;
+                const handleY = magnitude * Math.sin(angle * (Math.PI / 180)) - handleRadius;
+
+                // Update the position of the joystick handle
+                joystickHandle.style.transform = `translate(${handleX}px, ${handleY}px)`;
+
+                // Use JavaScript to send the camera control command to the server
+                fetch(`http://localhost:9000/api/rover-control?command=adjustCamera&angle=${angle}&magnitude=${magnitude}`, {
+                    method: 'POST',
+                });
+            }
+
+            joystick.on('move', (event, data) => {
+                moveJoystickHandle(data);
+            });
+
+            // Handle mouse move event for desktop
+            joystickContainer.addEventListener('mousemove', (event) => {
+                if (event.buttons === 1) {
+                    // Only move joystick handle if the left mouse button is pressed
+                    const rect = joystickContainer.getBoundingClientRect();
+                    const x = event.clientX - rect.left;
+                    const y = event.clientY - rect.top;
+                    const normalizedX = (x - rect.width / 2) / (rect.width / 2);
+                    const normalizedY = (y - rect.height / 2) / (rect.height / 2);
+                    moveJoystickHandle({ vector: { x: normalizedX * 50, y: normalizedY * 50 } });
+                }
+            });
+
+            // Handle touch move event for tablets and phones
+            joystickContainer.addEventListener('touchmove', (event) => {
+                event.preventDefault(); // Prevent default touch behavior (e.g., scrolling)
+                const touch = event.touches[0];
+                const rect = joystickContainer.getBoundingClientRect();
+                const x = touch.clientX - rect.left;
+                const y = touch.clientY - rect.top;
+                const normalizedX = (x - rect.width / 2) / (rect.width / 2);
+                const normalizedY = (y - rect.height / 2) / (rect.height / 2);
+                moveJoystickHandle({ vector: { x: normalizedX * 50, y: normalizedY * 50 } });
+            });
+        }
+
+
+
+        // Start the video stream when the page loads
+        window.onload = () => {
+            startVideoStream();
+            initializeJoystick();
+        };
+    </script>
+</body>
+
+</html>

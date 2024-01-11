@@ -1,0 +1,177 @@
+[
+    {
+        "Index": 1,
+        "Crop": "Rice",
+        "Best Season to Grow": {
+            "Summer": false,
+            "Fall": false,
+            "Winter": false,
+            "Monsoon": true
+        },
+        "Pests": [
+            {
+                "name": "Brown plant hopper",
+                "images": {
+                    "images1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR84cLUltheOMy3LfaA5oR-7jmgBJL-aAtQnFfxB7a7hjMyYDucL-wurLtG9FM7"
+                }
+            },
+            {
+                "name": "Stem Borer",
+                "images": {
+                    "image1": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQIMYBB0HNn8qaafCgrD-x-SNomI8D3ewFbdrDWMNRbLhmoQor9dzA9wpVvcl-P"
+                }
+            },
+            {
+                "name": "Leaf Folder",
+                "images": {
+                    "image1": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT9pdRut3Dxr5LoEEdovAkLY_fe4yDcJ27A85eJRSRSNRkp6QXsoyNSwQ1_i3rg"
+                }
+            },
+            {
+                "name": "Rice Hispa",
+                "images": {
+                    "image1": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT9pdRut3Dxr5LoEEdovAkLY_fe4yDcJ27A85eJRSRSNRkp6QXsoyNSwQ1_i3rg"
+                }
+            },
+            {
+                "name": "Gall Midge",
+                "images": {
+                    "image1": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTPMBYjOvcREp1gRzMRZ5BDY5Bp9y0Fd0FdWjmEgabACl-5KOHEiaISfKmGMUbW"
+                }
+            },
+            {
+                "name": "Rice Weevil",
+                "images": {
+                    "images1": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTLEbyKorOaqbiSVUtxmmMpmMupK5Vr7lzJFbPnnJXUmJX-oQsLHi18uoJMwYkU"
+                }
+            },
+            {
+                "name": "Rice Moth",
+                "images": {
+                    "image1": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ1XnnfVq2fXbgxiKUZameDiq0O7dCp5xGcEaQffTHDX4PTdHZrG0zs1QyfYXL5"
+                }
+            },
+            {
+                "name": "Rice Bugs",
+                "images": {
+                    "image1": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSSjp8u3KlIexkKXzz-Z37W9D_Mdyq9n1f4uJffKAxHpUnrLwc3TsutqcRpwv_X"
+                }
+            }
+        ],
+        "Weed": [
+            {
+                "name": "Barnyard grass",
+                "images": {
+                    "image1": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSjtjFNJUGPUBvb9JL8Mg-HVcqx0PcRw8PQo4MMYctrsVHUXaQxqx8xQG5ssZQD"
+                }
+            },
+            {
+                "name": "Jungle Rice",
+                "images": {
+                    "image1": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRWdtdwqkCg51AVT1ZEEgKQtjZ2S1ylxXORdbZPnu8KcYqFlCfNXF9V9_sgL9dH"
+                }
+            },
+            {
+                "name": "Cyprus Species",
+                "images": {
+                    "image1": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQA69Dp9p76q7hHGuaOlMeSPUeiayKGCm-KiMO0jfDGl-lYlfDNk5DnhH_O6qSX"
+                }
+            },
+            {
+                "name": "Nutgrass",
+                "images": {
+                    "image1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1AW71R6-sqspdtgzdsGQcVgOLfgLNpbydLx5nDxqAleRL0qVZShbmaF4QV6AD"
+                }
+            },
+            {
+                "name": "Pickerelweed",
+                "images": {
+                    "image1": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRPmrUt9gDOcUOx7rK2sg-EKl8cXZfUsq647n5LSFrVK9dXNkS10HuG4tliiYLA"
+                }
+            },
+            {
+                "name": " Bulrush",
+                "images": {
+                    "image1": "https://www.nwcb.wa.gov/weeds/ricefield-bulrush"
+                }
+            }
+        ],
+        "Diseases": [
+            {
+                "disease_name": "Bacterial leaf blight",
+                "images": {
+                    "image1": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR4yKSHqnjBviFjmWIweOJtAFsPXWw3PR_mukICdUuXgArbZk8-c7YxozPg6Gay"
+                },
+                "description": "A bacterial disease that causes pale yellow to brown lesions on the leaves of rice plants. The lesions can eventually enlarge and merge, causing the leaves to die."
+            },
+            {
+                "disease_name": "Brown spot",
+                "images": {
+                    "image1":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTfCs0fekNgvf9kCpnXMvYHsiZ-uLYtD6q9e37Mu9YiKwZOuiVCDQpSzp-beUwW"
+                },
+                "description": "A fungal disease that causes small, circular, brown spots on the leaves of rice plants. The spots can eventually enlarge and merge, causing the leaves to die."
+            },
+            {
+                "disease_name": "False smut",
+                "images": {
+                    "image1":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcREMfFerMkmytnRm6O9wyJ5-QiWnR-xZ66nXNBcCP48FMmv8WbW7xHouwAZdoTJ"
+                },
+                "description": "A fungal disease that causes black, sooty masses to develop on the flowers of rice plants. The infected flowers are sterile and do not produce grain."
+            },
+            {
+                "disease_name": "Rice blast",
+                "images":  {
+                    "image1" :"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT8uTJTxR2_T3iIVTiShUd42lfHOP5eZYAL9Kf4k0wrR1LKcktJytEzUPBcIDgE"
+                },
+                "description": "A fungal disease that causes oval, gray lesions on the leaves, stems, and flowers of rice plants. The lesions can eventually enlarge and merge, causing the plants to die."
+            },
+            {
+                "disease_name": "Tungro",
+                "images": {
+                    "image1":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQszfN-S35GYlYjim48i-yvqdWx7QOF8wgtkqS5jxBUADmq7KtuARGiTh7aaGas"
+                },
+                "description": "A viral disease that causes stunting, yellowing, and twisting of the leaves of rice plants. The infected plants may also produce distorted or empty grains."
+            }
+        ],
+        "Span from seedling to harvesting": {
+            "max": 120,
+            "min": 160
+        },
+        "Primary-nutrients": {
+            "N":{
+                "min":1.5,
+                "max":3.5
+            },
+            "P":{
+                "min":0.2,
+                "max":0.8
+            },
+            "K":{
+                "min":0.2,
+                "max":2
+            },
+            "C": {
+                "min":40,
+                "max":45
+            }
+        },
+        "Secondary-nutrients": {
+            "Ca":{
+                "min":0.2,
+                "max":1
+            },
+            "Mg":{
+                "min":0.1,
+                "max":0.5
+            },
+            "S":{
+                "min":0.1,
+                "max":0.5
+            }
+        },
+        "Micro-nutrient": {
+            "min":0.12,
+            "max":0.15
+        }
+    }
+]
